@@ -1,0 +1,104 @@
+.trainer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  background: #141414; /* dark background */
+  background: linear-gradient(90deg, #050505, #322c27, #ff2f00);
+  color: white; /* white text */
+}
+
+.content1 {
+  max-width: 90%;
+  text-align: center;
+}
+
+.content1 h2 {
+  font-size: 28px;
+  color: #ffffff; /* white color */
+}
+
+.content1 p {
+  margin: 20px 0;
+}
+
+.more-trainers-button {
+  background: #FF6B00; /* orange background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 50px 50px;
+}
+
+.more-trainers-button:hover {
+  background: #FF8C33; /* lighter orange on hover */
+}
+
+.slider {
+  width: 100%;
+}
+
+.trainer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2E2E2E; /* dark grey background */
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.trainer-card img {
+  border-radius: 10px;
+  width: 100%; /* Adjust width to fit the card */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.trainer-info h3 {
+  margin: 10px 0 5px;
+}
+
+.swiper-pagination-bullet {
+  background: #FF6B00; /* orange pagination bullets */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgb(86, 82, 82); /* white navigation arrows */
+  opacity: -3;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (min-width: 768px) {
+  .trainer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+  }
+
+  .content1 {
+    padding-top: 40px;
+    max-width: 40%;
+    text-align: left;
+  }
+
+  .slider {
+    max-width: 55%;
+    /* padding-top: 20px; */
+  }
+
+  .trainer-card img {
+    width: 50%; /* Adjust width to fit the card */
+  }
+}
+
+@media (max-width: 767px) {
+  .swiper-slide {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px ;
+  }
+}

@@ -1,0 +1,49 @@
+/* 
+.navbar-custom {
+    background: linear-gradient(90deg, #050505, #322c27, #ff2f00);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    color: white !important;
+    font-size: 1rem;
+  }
+  
+  .btn-outline-light {
+    border-color: white;
+    color: white;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: white;
+    color: black;
+  }
+   */
+
+.navbar-custom {
+    background: linear-gradient(90deg, #050505, #322c27, #ff2f00);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+  
+.nav-link {
+    color: white !important;
+    font-size: 1rem;
+}
+  
+.btn-outline-light {
+    border-color: white;
+    color: white;
+}
+  
+.btn-outline-light:hover {
+    background-color: white;
+    color: black;
+}
